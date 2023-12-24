@@ -2,7 +2,7 @@
   {
     "id": 0,
     "lessonTitle": "Lesson Title",
-    "image": "../images/placeholder.png",
+    "image": "https://merryface.github.io/mentor_decks_data",
     "assessmentQuestions": [
       {
         "question": "What is Flexbox?",
