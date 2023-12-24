@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "lessonTitle": "Lesson Title",
     "image": "../images/placeholder.png",
     "assessmentQuestions": [
       {
