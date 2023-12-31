@@ -64,7 +64,21 @@
       "visibility": "+10km",
       "ceiling": "None",
       "notes": "Additional information, such as changing weather, or specific orders to carry out exercises (if necessary). Can be blank."
-    }
+    },
+    "remedialExercises": [
+      {
+        "weakness": "Weakness 1",
+        "remediation": "Remediation for weakness 1"
+      },
+      {
+        "weakness": "Weakness 2",
+        "remediation": "Remediation for weakness 2"
+      },
+      {
+        "weakness": "Weakness 3",
+        "remediation": "Remediation for weakness 3"
+      }
+    ]
   },
   {
     "id": 1,
@@ -131,6 +145,20 @@
       "visibility": "+10km",
       "ceiling": "None",
       "notes": "Additional information, such as changing weather, or specific orders to carry out exercises (if necessary). Can be blank."
-    }
+    },
+    "remedialExercises": [
+      {
+        "weakness": "Weakness 1",
+        "remediation": "Remediation for weakness 1"
+      },
+      {
+        "weakness": "Weakness 2",
+        "remediation": "Remediation for weakness 2"
+      },
+      {
+        "weakness": "Weakness 3",
+        "remediation": "Remediation for weakness 3"
+      }
+    ]
   }
 ]
