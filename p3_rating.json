@@ -1,82 +1,115 @@
 [
   {
     "id": 0,
-    "lessonTitle": "Lesson Title",
-    "image": "https://merryface.github.io/mentor_decks_data/images/placeholder.png",
+    "lessonTitle": "Exercise 1: Aircraft Familiarisation & Handling (Diamond)",
+    "image": "https://merryface.github.io/mentor_decks_data/images/p3_e1_D.png",
     "assessmentQuestions": [
       {
-        "question": "What is Flexbox?",
-        "answer": "Flexbox is a CSS layout model optimized for designing complex layouts easily and predictably."
+        "question": "What is the name of the computer that controls the engine?",
+        "answer": " full authority digital engine (FADEC)"
       },
       {
-        "question": "Why use Flexbox?",
-        "answer": "It allows for alignment of elements in different directions and orders, and is responsive and adaptable."
+        "question": "How are the flaps operated in the Da42/62?",
+        "answer": "Electrically"
+      },
+      {
+        "question": "What would you see on your PFD if your pitot tube were blocked by icing during a climb? (give hints if needed)",
+        "answer": "Airspeed indicator would show an increasing airspeed, and behave a bit like an altimeter"
       }
     ],
     "exercises": [
       {
-        "title": "Exercise Title",
+        "title": "Departure",
         "exerciseItems": [
           {
-            "item": "Item 1",
-            "criteria": "Criteria to accomplish exercise item 1 to assessment standards"
+            "item": "Start-up",
+            "criteria": "Understands how to start the engine. Able to use flows, needing the checklist to complete forgotten items."
           },
           {
-            "item": "Item 2",
-            "criteria": "Criteria to accomplish exercise item 2 to assessment standards"
+            "item": "Taxying",
+            "criteria": "Maintain positive control of the aircraft, taxying no faster than 10kt (Check MFD groundspeed)"
           },
           {
-            "item": "Item 3",
-            "criteria": "Criteria to accomplish exercise item 2 to assessment standards"
+            "item": "Take-off roll and climb out",
+            "criteria": "Continuous effort to maintain centerline, correct callouts, rotation at around Vr, climbout at 85-95kt, gear up at entering into IMC or insufficient runway to land back onto"
           }
         ]
       },
       {
-        "title": "Exercise Title 2",
+        "title": "General Handling",
         "exerciseItems": [
           {
-            "item": "Item 1",
-            "criteria": "Criteria to accomplish exercise item 1 to assessment standards"
+            "item": "Straight & level flight",
+            "criteria": "Able to maintain +/- 15 degrees +/- 150ft by end of session"
           },
           {
-            "item": "Item 2",
-            "criteria": "Criteria to accomplish exercise item 2 to assessment standards"
+            "item": "Normal turns",
+            "criteria": "Able to maintain 30 degrees constant bank angle, level turn, and level off at target heading +/- 15 degrees, +/- 150ft"
           },
           {
-            "item": "Item 3",
-            "criteria": "Criteria to accomplish exercise item 2 to assessment standards"
+            "item": "Steep turns",
+            "criteria": "Able to maintain 45 degrees constant bank angle, level turn, and level off at target heading +/- 15 degrees, +/- 150ft"
+          },
+          {
+            "item": "Climbing and descending",
+            "criteria": "Able to maintain heading +/- 15degrees, level off at target altitude +/- 150ft"
+          },
+          {
+            "item": "Stall recovery",
+            "criteria": "Recover at the continous stall horn, +/- 20 degrees, -100ft maximum."
+          },
+          {
+            "item": "Slow flight",
+            "criteria": "Maintain blue line speed -0/+10 kt, S&L, shallow turns, +/- 10 degrees +/- 100ft"
+          },
+          {
+            "item": "Emergency descent",
+            "criteria": "Follow guidance, maintain high speed descent in correct configuration, recover at target altitude and clean up, +/- 15 degrees, +/- 150ft"
+          }
+        ]
+      },
+      {
+        "title": "Arrival and shutdown",
+        "exerciseItems": [
+          {
+            "item": "Approach",
+            "criteria": "Follow instructions to get into proper configuration, stable approach at 90kt +/- 5kt"
+          },
+          {
+            "item": "Landing Rollout",
+            "criteria": "Continuous attempt to maintain centerline"
+          },
+          {
+            "item": "Shutdown",
+            "criteria": "Understands how to start the engine. Able to use flows, needing the checklist to complete forgotten items."
           }
         ]
       }
     ],
     "configuration": {
       "status": "Cold & dark",
-      "fuel": "50-100%",
-      "payload": "189kg",
+      "fuel": "100%",
+      "payload": "180kg",
       "bags": "20kg",
       "location": "Parking ramp",
-      "atc": "VATSIM",
-      "runway": "27L or as per ATC",
+      "atc": "None",
+      "runway": "Any",
       "liveWeather": false,
-      "wind": "230/10",
+      "wind": "Calm",
       "temp": "15°C",
       "pressure": "1013hPa",
       "visibility": "+10km",
       "ceiling": "None",
-      "notes": "Additional information, such as changing weather, or specific orders to carry out exercises (if necessary). Can be blank."
+      "notes": "Allow student to use checklist for startup, but encourage them to use flows. Allow student to choose airport if they want."
     },
     "remedialExercises": [
       {
-        "weakness": "Weakness 1",
-        "remediation": "Remediation for weakness 1"
+        "weakness": "Checklists and Flows",
+        "remediation": "Cold & Dark: single large circuit to land, shutdown (repeat until end of session)"
       },
       {
-        "weakness": "Weakness 2",
-        "remediation": "Remediation for weakness 2"
-      },
-      {
-        "weakness": "Weakness 3",
-        "remediation": "Remediation for weakness 3"
+        "weakness": "General handling item(s)",
+        "remediation": "Start on runway, depart, focus on practicing items"
       }
     ]
   },
