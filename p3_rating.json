@@ -81,7 +81,7 @@
           },
           {
             "item": "Shutdown",
-            "criteria": "Understands how to start the engine. Able to use flows, needing the checklist to complete forgotten items."
+            "criteria": "Understands how to stop the engine. Able to use flows, needing the checklist to complete forgotten items."
           }
         ]
       }
