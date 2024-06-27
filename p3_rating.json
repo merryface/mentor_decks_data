@@ -115,82 +115,103 @@
   },
   {
     "id": 1,
-    "lessonTitle": "Lesson Title 2",
-    "image": "https://merryface.github.io/mentor_decks_data/images/placeholder.png",
+    "lessonTitle": "Exercise 2: Engine Failure in Cruise",
+    "image": "",
     "assessmentQuestions": [
       {
-        "question": "What is Flexbox?",
-        "answer": "Flexbox is a CSS layout model optimized for designing complex layouts easily and predictably."
+        "question": "Which is the critical engine in the aircraft you're flying?",
+        "answer": "Left engine"
       },
       {
-        "question": "Why use Flexbox?",
-        "answer": "It allows for alignment of elements in different directions and orders, and is responsive and adaptable."
+        "question": "What is Blue line speed? What is it on your aircraft?",
+        "answer": "Vyse (Single engine best rate of climb) Da42: 82kt, Da62: 87kt, Baron 58: 101kt"
+      },
+      {
+        "question": "Why is it important to secure the engine?",
+        "answer": "Climb performance, Vmc, controllability (give them a verbal gold star for Vmc description)"
+      },
+      {
+        "question": "How would you secure the engine on your aircraft?",
+        "answer": "Accept anything that follows along the lines of shutting down the engine and feathering props"
       }
     ],
     "exercises": [
       {
-        "title": "Exercise Title",
+        "title": "Clean S&L engine Failure",
         "exerciseItems": [
           {
-            "item": "Item 1",
-            "criteria": "Criteria to accomplish exercise item 1 to assessment standards"
+            "item": "Maintain Altitude",
+            "criteria": "+/- 200ft"
           },
           {
-            "item": "Item 2",
-            "criteria": "Criteria to accomplish exercise item 2 to assessment standards"
+            "item": "Maintain speed at or above Vyse",
+            "criteria": "No less than 5kt below, followed by immediate corrections"
           },
           {
-            "item": "Item 3",
-            "criteria": "Criteria to accomplish exercise item 2 to assessment standards"
+            "item": "Maintain direction",
+            "criteria": "+/- 20 degrees"
+          },
+          {
+            "item": "Secure the engine",
+            "criteria": "Able to complete the flow with mentor guidance"
           }
         ]
       },
       {
-        "title": "Exercise Title 2",
+        "title": "Single Engine General handling",
         "exerciseItems": [
           {
-            "item": "Item 1",
-            "criteria": "Criteria to accomplish exercise item 1 to assessment standards"
+            "item": "Turns",
+            "criteria": "+/- 10 degrees +/- 200ft (bank 20 degrees +/- 5)"
           },
           {
-            "item": "Item 2",
-            "criteria": "Criteria to accomplish exercise item 2 to assessment standards"
+            "item": "Climbs",
+            "criteria": "+/- 200ft target altitude, Vyse or above (fluctuations below with immediate corrections acceptable), +/- 10 degrees"
           },
           {
-            "item": "Item 3",
-            "criteria": "Criteria to accomplish exercise item 2 to assessment standards"
+            "item": "Descents",
+            "criteria": "Cruise speed +/- 15kt, other criteria same as climbs"
+          }
+        ]
+      },
+      {
+        "title": "Vmc roll demonstration",
+        "exerciseItems": [
+          {
+            "item": "Experience and recover from Vmc roll",
+            "criteria": "No performance criteria. Talk them through the roll and recovery. No penalties for crashing"
           }
         ]
       }
     ],
     "configuration": {
-      "status": "Cold & dark",
-      "fuel": "50-100%",
+      "status": "Ready for departure",
+      "fuel": "75%",
       "payload": "189kg",
       "bags": "20kg",
-      "location": "Parking ramp",
-      "atc": "VATSIM",
-      "runway": "27L or as per ATC",
+      "location": "Departure end of Runway",
+      "atc": "Optional",
+      "runway": "Any",
       "liveWeather": false,
-      "wind": "230/10",
+      "wind": "Calm",
       "temp": "15°C",
       "pressure": "1013hPa",
       "visibility": "+10km",
       "ceiling": "None",
-      "notes": "Additional information, such as changing weather, or specific orders to carry out exercises (if necessary). Can be blank."
+      "notes": "Can depart from VATSIM controlled airport VFR, but do exercises in uncontrolled airspace. Does not need to be constrained to UK airports. Low level flat terrain preferable, (e.g Sweden) "
     },
     "remedialExercises": [
       {
-        "weakness": "Weakness 1",
-        "remediation": "Remediation for weakness 1"
+        "weakness": "Poor execution of engine securing",
+        "remediation": "Shared cockpit if available: mentor cuts fuel to (random) engine. Repeat as necessary"
       },
       {
-        "weakness": "Weakness 2",
-        "remediation": "Remediation for weakness 2"
+        "weakness": "Poor Single engine handling",
+        "remediation": "Full session of general handling with single engine"
       },
       {
-        "weakness": "Weakness 3",
-        "remediation": "Remediation for weakness 3"
+        "weakness": "Unable to maintain Straight and level with single engine.",
+        "remediation": "Student pulls one throttle to ~20%. Practice S&L. Set normal power. Repeat on other side. Repeat as necessary"
       }
     ]
   }
