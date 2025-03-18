@@ -214,5 +214,133 @@
         "remediation": "Student pulls one throttle to ~20%. Practice S&L. Set normal power. Repeat on other side. Repeat as necessary"
       }
     ]
+  },
+  {
+    "id": 2,
+    "lessonTitle": "Exercise 3: Engine Failure During Take-off",
+    "image": "https://merryface.github.io/mentor_decks_data/images/p3_e3_D.png",
+    "assessmentQuestions": [
+      {
+        "question": "What is Vmcg",
+        "answer": "Minimum controllable speed on the ground (describe what it means)"
+      },
+      {
+        "question": "How does the take-off rotation differ with a failed engine compared to a normal rotation?",
+        "answer": "Describe the method of accelerating to blue line and maintaining blue line during the climb"
+      },
+      {
+        "question": "When do you start securing the engine when you experience an EFATO?",
+        "answer": "Once established in a climb at Vyse with gear and flaps retracted"
+      }
+    ],
+    "exercises": [
+      {
+        "title": "RTO: Right Engine fail at 50kt (winds calm)",
+        "exerciseItems": [
+          {
+            "item": "Directional control",
+            "criteria": "Remain on the runway, ideally on centerline"
+          },
+          {
+            "item": "Timely rejection",
+            "criteria": "Bring throttle levers to idle as soon as failure is identified"
+          },
+          {
+            "item": "Post rejection items",
+            "criteria": "Sets park brakes, alerts ATC, assesses the situation"
+          }
+        ]
+      },
+      {
+        "title": "RTO: Left Engine Fail at 50kt (winds calm)",
+        "exerciseItems": [
+          {
+            "item": "Directional control",
+            "criteria": "Remain on the runway, ideally on centreline"
+          },
+          {
+            "item": "Timely rejection",
+            "criteria": "Bring throttle levers to idle as soon as failure is identified"
+          },
+          {
+            "item": "Post rejection items",
+            "criteria": "Sets park brakes, alerts ATC, assesses the situation"
+          }
+        ]
+      },
+      {
+        "title": "RTO: Left engine Fail at 50kt (max left crosswind)",
+        "exerciseItems": [
+          {
+            "item": "Directional control",
+            "criteria": "Timely and maximal effort to remain on the runway (excursion ok)"
+          }
+        ]
+      },
+      {
+        "title": "EFATO at Vr",
+        "exerciseItems": [
+          {
+            "item": "Directional control",
+            "criteria": "Positive control on bank and yaw, maintain runway heading"
+          },
+          {
+            "item": "Pitch/Speed control",
+            "criteria": "Vyse +10/-0kt"
+          },
+          {
+            "item": "Follow EFATO procedure",
+            "criteria": "Bring gear up and secure engine at correct times"
+          }
+        ]
+      },
+      {
+        "title": "EFATO after Vr to land",
+        "exerciseItems": [
+          {
+            "item": "Directional control",
+            "criteria": "Remain on the runway heading and over it"
+          },
+          {
+            "item": "Descent to land",
+            "criteria": "Correct power reduction and pitch control"
+          },
+          {
+            "item": "Landing",
+            "criteria": "Touchdown and stop on the runway"
+          }
+        ]
+      }
+    ],
+    "configuration": {
+      "status": "Ready for take-off",
+      "fuel": "50-100%",
+      "payload": "189kg",
+      "bags": "20kg",
+      "location": "EGGP on Runway",
+      "atc": "None",
+      "runway": "27",
+      "liveWeather": false,
+      "wind": "Calm",
+      "temp": "15°C",
+      "pressure": "1013hPa",
+      "visibility": "+10km",
+      "ceiling": "None",
+      "notes": "All attempts in calm wind except for max crosswind RTO"
+    },
+    "remedialExercises": [
+      {
+        "weakness": "Remaining on runway during RTO",
+        "remediation": "RTO practice at differing speeds with crosswinds"
+      },
+      {
+        "weakness": "Directional control during rotation with failed engine",
+        "remediation": "\"Taxi\" at Vyse with single engine down the whole runway"
+      },
+      {
+        "weakness": "Pitch control to maintain Vyse in climb",
+        "remediation": "Climb Single engine at Vyse cycling configuration between clean and gear down with approach flaps"
+      }
+    ]
   }
 ]
