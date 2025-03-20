@@ -342,5 +342,103 @@
         "remediation": "Climb Single engine at Vyse cycling configuration between clean and gear down with approach flaps"
       }
     ]
+  },
+  {
+    "id": 10,
+    "lessonTitle": "Exercise 9: LOFT 1",
+    "image": "https://merryface.github.io/mentor_decks_data/images/p3_e9_A.jpg",
+    "assessmentQuestions": [
+      {
+        "question": "Have you planned the flight?",
+        "answer": "Yes: Show plog, weather, NOTAMS, etc"
+      },
+      {
+        "question": "At what altitude can you engage the autopilot on departure according to VATSIM UK P3 SOPs?",
+        "answer": "1000ft"
+      },
+      {
+        "question": "What are the golden rules?",
+        "answer": "FNC, Appropriate level of automation, Know the FMA, Take action if things don't go as expected"
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Route input and modification",
+        "exerciseItems": [
+          {
+            "item": "Program waypoints and Airways",
+            "criteria": "Independently add waypoints and airways"
+          },
+          {
+            "item": "Modify route",
+            "criteria": "Delete or add waypoints as required"
+          },
+          {
+            "item": "Program diversion",
+            "criteria": "Successfully change destination"
+          }
+        ]
+      },
+      {
+        "title": "Use of Automation",
+        "exerciseItems": [
+          {
+            "item": "Mode selection",
+            "criteria": "Using appropriate mode selections"
+          },
+          {
+            "item": "FMA",
+            "criteria": "Call out FMA modes and changes, and understand what they mean"
+          },
+          {
+            "item": "Adherence to Automation SOPs",
+            "criteria": "Show understanding and compliance to automation procedures"
+          }
+        ]
+      },
+      {
+        "title": "Programming and modifying arrivals and approaches",
+        "exerciseItems": [
+          {
+            "item": "Program an Arrival",
+            "criteria": "successfully add an instrument arrival in the G1000"
+          },
+          {
+            "item": "Add/change instrument approaches",
+            "criteria": "Add/modify the appropriate instrument approach in the G1000"
+          }
+        ]
+      }
+    ],
+    "configuration": {
+      "status": "Cold & dark",
+      "fuel": "100%",
+      "payload": "189kg",
+      "bags": "20kg",
+      "location": "Ramp",
+      "atc": "VATSIM",
+      "runway": "As required",
+      "liveWeather": true,
+      "wind": "Calm",
+      "temp": "15°C",
+      "pressure": "1013hPa",
+      "visibility": "+10km",
+      "ceiling": "None",
+      "notes": "Connected to network, fly as normal"
+    },
+    "remedialExercises": [
+      {
+        "weakness": "Use/understanding of Automation",
+        "remediation": "Offline flight in VMC, exploring the different autopilot modes"
+      },
+      {
+        "weakness": "Input of routing",
+        "remediation": "Remain on ground with engines running, and practice programming different routes"
+      },
+      {
+        "weakness": "Workload management",
+        "remediation": "Fly multiple procedural approaches at airport, programming each one into the G1000 every time"
+      }
+    ]
   }
 ]
