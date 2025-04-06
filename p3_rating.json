@@ -344,6 +344,160 @@
     ]
   },
   {
+    "id": 5,
+    "lessonTitle": "Exercise 7 & 8: Single Engine 3D and 2D Approaches",
+    "image": "",
+    "assessmentQuestions": [
+      {
+        "question": "How and when do you configure for the final descent on a single engine instrument approach",
+        "answer": "Describe the single engine approach profile from the pack"
+      },
+      {
+        "question": "When do retract gear and flaps during a single engine go-around?",
+        "answer": "As soon as you apply full power and pitch up to go around"
+      },
+      {
+        "question": "What speed should you fly the approach at?",
+        "answer": "Reply according to the aircraft profile"
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Engine Failure during departure",
+        "exerciseItems": [
+          {
+            "item": "Positive control of aircraft",
+            "criteria": "Above blue line speed good FPM"
+          },
+          {
+            "item": "Engine securing flow",
+            "criteria": "Performed according to SOPs properly and in a timely manner"
+          },
+          {
+            "item": "ACM and TEM",
+            "criteria": "Maintain SA of aircraft position throughout the process"
+          }
+        ]
+      },
+      {
+        "title": "Approach Briefings and set-up",
+        "exerciseItems": [
+          {
+            "item": "Setting up avionics",
+            "criteria": "Correctly set up frequencies, minima, and CDI. Correctly set up GPS sequencing when appropriate (LNAV/VNAV, or overlays for procedurals)"
+          },
+          {
+            "item": "Briefing",
+            "criteria": "Cover what and how including the go-around and missed approach, and TEM"
+          }
+        ]
+      },
+      {
+        "title": "Procedural arrival",
+        "exerciseItems": [
+          {
+            "item": "FPM",
+            "criteria": "Flown in accordance to the published procedure within MCS tolerances"
+          }
+        ]
+      },
+      {
+        "title": "3D Approaches",
+        "exerciseItems": [
+          {
+            "item": "Glide-path",
+            "criteria": "Within +1 dot and - 1/2 dot"
+          },
+          {
+            "item": "Localiser",
+            "criteria": "Within 1 dot"
+          },
+          {
+            "item": "Speed control",
+            "criteria": "Above Blue line speed, and max +15kt of target speed"
+          }
+        ]
+      },
+      {
+        "title": "2D Approaches",
+        "exerciseItems": [
+          {
+            "item": "Glide-path",
+            "criteria": "Within +300ft and -100ft"
+          },
+          {
+            "item": "Localiser",
+            "criteria": "Within 1 dot"
+          },
+          {
+            "item": "Speed control",
+            "criteria": "Above Blue line speed, and max +15kt of target speed"
+          }
+        ]
+      },
+      {
+        "title": "Go-around",
+        "exerciseItems": [
+          {
+            "item": "Initial actions",
+            "criteria": "Correct according to profile"
+          },
+          {
+            "item": "Speed control",
+            "criteria": "Above blue-line but at a speed permitting a climb"
+          },
+          {
+            "item": "FPM",
+            "criteria": "Full control of the aircraft all the way to the commencement of the missed approach procedure"
+          }
+        ]
+      },
+      {
+        "title": "Missed Approach Procedure",
+        "exerciseItems": [
+          {
+            "item": "FPM and Procedural",
+            "criteria": "Flown to MCS standards and published procedure"
+          }
+        ]
+      }
+    ],
+    "configuration": {
+      "status": "Engine Running",
+      "fuel": "100%",
+      "payload": "189kg",
+      "bags": "20kg",
+      "location": "Runway",
+      "atc": "None",
+      "runway": "27",
+      "liveWeather": false,
+      "wind": "250/5",
+      "temp": "15°C",
+      "pressure": "1020hPa",
+      "visibility": "2000m",
+      "ceiling": "OVC005",
+      "notes": "For MSFS set visibility as close as possible. Make sure to fail the engine only once in IMC. Allow the use of G1000 GPS features to fly the approaches, but have them practice each procedural and missed approach procedure raw data at least once."
+    },
+    "remedialExercises": [
+      {
+        "weakness": "Engine securing",
+        "remediation": "Practice multiple engine failures in IMC"
+      },
+      {
+        "weakness": "3D approach accuracy",
+        "remediation": "Vectored circuits for ILS approaches"
+      },
+      {
+        "weakness": "2D approach accuracy",
+        "remediation": "Vectored circuits for VORDME approaches"
+      },
+      {
+        "weakness": "Single Engine go-around",
+        "remediation": "Exercise 5"
+      }
+    ]
+  },
+  {
     "id": 8,
     "lessonTitle": "Exercise 9: LOFT 1",
     "image": "https://merryface.github.io/mentor_decks_data/images/p3_e9_A.jpg",
@@ -441,4 +595,5 @@
       }
     ]
   }
+  
 ]
